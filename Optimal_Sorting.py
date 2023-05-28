@@ -1,9 +1,10 @@
-n=int(input())
-for i in range(n):
-    a=int(input())
-    b=list(map(int,input().split()))
-    c=sorted(b)
-    if(c==b):
+a=int(input())
+for i in range(a):
+    b=int(input())
+    c=list(map(int,input().split()))
+    t=sorted(c)
+    if c==t:
         print(0)
     else:
-        print(max(b)-min(b))
+        y=t[-1]-t[0]
+        print(y)
