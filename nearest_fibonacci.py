@@ -14,7 +14,7 @@ for i in range(n):
         break
 if abs(v[-1]-n)>abs(v[-2]-n):
     print(v[-2])
-elif abs(v[-1]-n)==abs(v[-2]-n):
+elif abs(v[-1]-n)==abs(v[-2]-n):    
     print(v[-2],v[-1])
 else:
     print(v[-1])
